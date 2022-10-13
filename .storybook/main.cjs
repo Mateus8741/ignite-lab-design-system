@@ -12,9 +12,9 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  vitFinal: (config, { configType }) => {
+  viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/lab-ds/";
+      config.base = "/ignite-lab-design-system/";
     }
     return config;
   },
